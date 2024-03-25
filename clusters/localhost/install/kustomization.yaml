@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/pmi-ambulance-ufe
+- ../../../apps/pmi-ambulance-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- https://github.com/wac-fiit/ambulance-webapi-cv1//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
