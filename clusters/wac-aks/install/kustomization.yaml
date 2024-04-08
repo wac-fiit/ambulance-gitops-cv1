@@ -9,7 +9,7 @@ commonLabels:
 
 resources:
 - ../../../apps/pmi-ambulance-ufe
-- ../../../apps/<pfx>-ambulance-webapi
+- ../../../apps/pmi-ambulance-webapi
 
 components:
 - ../../../components/version-release
