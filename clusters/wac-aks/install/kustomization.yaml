@@ -8,8 +8,8 @@ commonLabels:
  app.kubernetes.io/name: pmi-ambulance-wl
 
 resources:
- - ../../../apps/pmi-ambulance-ufe
-
+- ../../../apps/pmi-ambulance-ufe
+- ../../../apps/<pfx>-ambulance-webapi
 
 components:
- - ../../../components/version-release
+- ../../../components/version-release
