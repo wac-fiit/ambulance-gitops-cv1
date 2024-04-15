@@ -27,7 +27,7 @@ spec:
         certificateRefs:
         - kind: Secret
           name: wac-hospital-tls
-    - hostname: localhost
+    - hostname: local-k8s
       name: https-localhost
       protocol: HTTPS
       port: 443
